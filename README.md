@@ -53,4 +53,4 @@ To get started with this CRA template, do the following:
 
 ## About
 
-The CRA-Fullstack-Pro template was built by [Harshith Latchupatula] (https://github.com/harshithl1777).
+The CRA-Fullstack-Pro template was built by [Harshith Latchupatula](https://github.com/harshithl1777).
