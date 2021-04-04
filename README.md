@@ -2,6 +2,8 @@
 
 A custom CRA template for fullstack React apps.
 
+![GitHub](https://img.shields.io/github/license/harshithl1777/cra-template-fullstack-pro) ![npm](https://img.shields.io/npm/v/cra-template-fullstack-pro) ![Depfu](https://img.shields.io/depfu/harshithl1777/cra-template-fullstack-pro)
+
 ## Installation and Setup
 
 To get started with this CRA template, do the following:
