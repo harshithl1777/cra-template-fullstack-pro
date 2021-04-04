@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# CRA Fullstack Pro Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A custom CRA template for fullstack React apps.
 
-## Available Scripts
+## Installation and Setup
 
-In the project directory, you can run:
+To get started with this CRA template, do the following:
+1. Run `npx create-react-app <project-name> --template cra-template-fullstack-pro`
+2. `cd` into the project directory and you're all good to go!
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Dependencies Included
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Backend Dependencies (express, body-parser, cors, path)
+- Frontend Dependencies (redux, react-redux, redux-thunk, bootstrap)
+- Dev Dependencies (jest, nodemon, concurrently)
+- General purpose (axios, dotenv, fs)
 
-### `yarn test`
+## Run Scripts Included
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `start` (Starts up the web-server for Heroku deployment)
+- `client` (Starts the client side)
+- `server` (Starts up the server-side)
+- `dev` (Uses concurrently to start both the server and client side at the same time for fullstack development)
+- `test` (Runs jest to complete all test cases)
+- `heroku-postbuild` (Builds the client-side for Heroku to serve up)
 
-### `yarn build`
+## Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+<project-name>
+│ └───public
+│     │   ... 
+│ └───server 
+│     └───config
+│     └───controllers
+│     └───models
+│     └───routes
+│     └───services
+│     │   index.js
+│     │   package.json
+│ └───src
+│     └───assets
+│     └───components
+│     └───containers
+│     └───redux
+│     │   index.js
+│   package.json
+│   LICENSE
+│   README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The CRA-Fullstack-Pro template was built by [Harshith Latchupatula] (https://github.com/harshithl1777).

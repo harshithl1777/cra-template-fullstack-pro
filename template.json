@@ -19,10 +19,11 @@
         "dotenv": "^8.2.0",
         "fs": "^0.0.1-security",
         "nodemon": "^2.0.7",
-        "concurrently": "^6.0.0"
+        "concurrently": "^6.0.0",
+        "bootstrap": "^4.6.0"
       },
       "scripts" : {
-        "start": "cd server && npm start",
+        "start": "npm install && cd server && npm start",
         "heroku-postbuild": "npm install && npm run build",
         "client": "react-scripts start",
         "server": "cd server && npm start",
